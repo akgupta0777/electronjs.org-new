@@ -3,7 +3,7 @@ const npm2yarn = require('@docusaurus/remark-plugin-npm2yarn');
 const fiddleEmbedder = require('./src/transformers/fiddle-embedder.js');
 const apiLabels = require('./src/transformers/api-labels.js');
 const apiStructurePreviews = require('./src/transformers/api-structure-previews.js');
-const docVersions = require('./versions-info.json');
+// const docVersions = require('./versions-info.json');
 
 module.exports = {
   title: 'Electron',
